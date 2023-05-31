@@ -20,6 +20,10 @@ public class BibliographicProduct {
     public BibliographicProduct() {
     }
 
+    // This is a constructor method for the `BibliographicProduct` class that takes in a `String`
+    // parameter called `identity`. It sets the `identity` field of the object to the value of the
+    // `identity` parameter and initializes the `totalReadPages` field to 0. This constructor can be
+    // used to create a new `BibliographicProduct` object with only the `identity` field set.
     public BibliographicProduct(String identity) {
         this.identity = identity;
         this.totalReadPages = 0;
